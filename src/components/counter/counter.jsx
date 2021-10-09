@@ -11,7 +11,7 @@ export class Counter extends React.Component {
         }
     };
 
-    componentWillMount() {
+    componentDidMount() {
         this.timerID = setInterval(
             () => this.tick(),
             1000
